@@ -7,7 +7,7 @@
 
 >MACHINETPYE  0		# 0:Cartesian; 1:DELTA ; 2:COREXY
 >LCD_LANGUAGE 0		# 0:English;  1:Chinese
->HAS_TEMP_BED 1	                # whether enable the heated bed (disable: 0, enable: 1)
+>HAS_TEMP_BED 1	  # whether enable the heated bed (disable: 0, enable: 1)
 
 # Travel limits after homing (units are in mm)
 >X_MIN_POS 0
@@ -27,13 +27,13 @@
 #Set stepper current
 >CURRENT_VREF_XY               1200	#Default motor current for XY in mA range (0~1500)
 >CURRENT_VREF_Z                 1200	#Default motor current for Z  in mA range (0~1500)
->CURRENT_VREF_E                 1500        #Default motor current for E  in mA range (0~1500)
+>CURRENT_VREF_E                 1500  #Default motor current for E  in mA range (0~1500)
 
 #Invert the stepper direction.
->INVERT_X_DIR 	                0	  #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
->INVERT_Y_DIR 	                1                #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
->INVERT_Z_DIR                	0                #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
->INVERT_E0_DIR           	0                #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
+>INVERT_X_DIR   0	  #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
+>INVERT_Y_DIR   1   #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
+>INVERT_Z_DIR   0   #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
+>INVERT_E0_DIR  0   #If you modify the rotation direction, you can directly modify it to 0-1 or 1-0
 
 #Movement setting
 >DEFAULT_X_STEPS_PER_UNIT	80	#Default Axis-X Steps Per Unit (steps/mm)
